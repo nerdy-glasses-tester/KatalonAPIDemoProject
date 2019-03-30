@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HTTPMethods</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0ed41ebd-858d-47f7-9e52-c429696544a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JSONPlaceholderTypicodeTest</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
