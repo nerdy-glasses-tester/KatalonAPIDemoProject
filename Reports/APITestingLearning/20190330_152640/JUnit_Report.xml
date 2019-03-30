@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APITestingLearning" time="2" tests="1" failures="0" errors="0">
+   <testsuite name="APITestingLearning" tests="1" failures="0" errors="0" time="2" timestamp="2019-03-30 15:26:42" hostname="angee - 192.168.0.6" id="Test Suites/APITestingLearning">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640"/>
+         <property name="logFiles" value="/Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="angee - 192.168.0.6"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/HTTPMethods" classname="Test Cases/HTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-03-30 15:26:42 - [TEST_CASE][PASSED] - Test Cases/HTTPMethods: Test Cases/HTTPMethods
+
+2019-03-30 15:26:42 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/CreateUser")): Send request successfully
+
+2019-03-30 15:26:44 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640/requests/main/0.har
+
+2019-03-30 15:26:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 15:26:44 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/UpdateUser")): Send request successfully
+
+2019-03-30 15:26:44 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640/requests/main/1.har
+
+2019-03-30 15:26:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 15:26:44 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/ListUsers")): Send request successfully
+
+2019-03-30 15:26:44 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640/requests/main/2.har
+
+2019-03-30 15:26:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 15:26:44 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/DeleteUser")): Send request successfully
+
+2019-03-30 15:26:44 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_152640/requests/main/3.har
+
+2019-03-30 15:26:44 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-30 15:26:42 - [TEST_SUITE][PASSED] - APITestingLearning: Test Cases/HTTPMethods]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
