@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SoapWSDLLatitudeLongitudeTest</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>df31c3ff-739c-4d3b-9656-43fb01b62649</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/APIChainingJSON</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
