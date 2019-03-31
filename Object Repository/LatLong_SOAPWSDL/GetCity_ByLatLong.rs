@@ -22,6 +22,13 @@
    <soapHeader></soapHeader>
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceFunction>LatLonListCityNames</soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.lat</defaultValue>
+      <description></description>
+      <id>9de10ace-4fdf-4f61-9604-0dae6aa6ee03</id>
+      <masked>false</masked>
+      <name>lat</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -36,9 +43,9 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
-
+assertThat(response.getResponseText()).contains(&quot;Palm Springs,CA&quot;)
 //wsdl has issues so can't use below
 //WS.verifyElementText(response, 'LatLonListCityNamesResponse.listLatLonOut', 'Palm Springs,CA')
-//assertThat(response.getResponseText()).contains(&quot;Palm Springs,CA&quot;)</verificationScript>
+</verificationScript>
    <wsdlAddress>https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl</wsdlAddress>
 </WebServiceRequestEntity>
