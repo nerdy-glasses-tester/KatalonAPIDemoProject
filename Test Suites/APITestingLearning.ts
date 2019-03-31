@@ -23,9 +23,9 @@
       <testCaseId>Test Cases/JSONPlaceholderTypicodeTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a878350-d7d4-4918-bad5-3f873cc63c54</guid>
+      <guid>1d11ec2e-5f88-4982-9cec-78bc3d1e3f5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SoapLatitudeLongitude</testCaseId>
+      <testCaseId>Test Cases/SoapWSDL_LatitudeLongitudeTest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+APITestingLearning,,,2019-03-30 22:05:44,2019-03-30 22:05:51,6.318s,PASSED
+,,,,,,
+Test Cases/HTTPMethods,,,2019-03-30 22:05:45,2019-03-30 22:05:47,1.962s,PASSED
+"sendRequest(findTestObject(""UserRestService/CreateUser""))",,,2019-03-30 22:05:45,2019-03-30 22:05:46,1.426s,PASSED
+"sendRequest(findTestObject(""UserRestService/UpdateUser""))",,,2019-03-30 22:05:46,2019-03-30 22:05:46,0.110s,PASSED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,2019-03-30 22:05:46,2019-03-30 22:05:46,0.107s,PASSED
+"sendRequest(findTestObject(""UserRestService/DeleteUser""))",,,2019-03-30 22:05:46,2019-03-30 22:05:47,0.110s,PASSED
+,,,,,,
+Test Cases/JSONPlaceholderTypicodeTest,,,2019-03-30 22:05:47,2019-03-30 22:05:49,2.231s,PASSED
+"sendRequest(findTestObject(""JSONPlaceholderTypicode/PostRequest""))",,,2019-03-30 22:05:47,2019-03-30 22:05:49,2.056s,PASSED
+"sendRequest(findTestObject(""JSONPlaceholderTypicode/GetRequest""))",,,2019-03-30 22:05:49,2019-03-30 22:05:49,0.088s,PASSED
+,,,,,,
+Test Cases/SoapWSDL_LatitudeLongitudeTest,,,2019-03-30 22:05:49,2019-03-30 22:05:51,1.911s,PASSED
+"response1 = sendRequest(findTestObject(""LatLongSOAPService/GetLatLongByZipcode""))",,,2019-03-30 22:05:49,2019-03-30 22:05:50,1.279s,PASSED
+xml1 = response1.getResponseText(),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.005s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.021s,PASSED
+println(dataValue),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.004s,PASSED
+parseString = dataValue.toString(),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+"array1 = parseString.split(""<latLonList>"")",,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.002s,PASSED
+"array2 = array1[1].split(""</latLonList>/"")",,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+latitudelongitude = array2[0],,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+println(latitudelongitude),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+"latitudearray = latitudelongitude.split("","")",,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+"latitude = latitudearray[0].substring(0, 2)",,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+println(latitude),,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.001s,PASSED
+lat = latitude,,,2019-03-30 22:05:50,2019-03-30 22:05:50,0.052s,PASSED
+"sendRequest(findTestObject(""LatLongSOAPService/GetCityByLatLong""))",,,2019-03-30 22:05:50,2019-03-30 22:05:51,0.417s,PASSED

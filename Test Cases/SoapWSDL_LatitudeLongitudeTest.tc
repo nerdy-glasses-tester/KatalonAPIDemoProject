@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SoapLatitudeLongitude</name>
+   <name>SoapWSDL_LatitudeLongitudeTest</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>10efb137-fce1-4e77-bd65-1370b29cda01</testCaseGuid>
