@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/JSONPlaceholderTypicodeTest</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2a878350-d7d4-4918-bad5-3f873cc63c54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SoapLatitudeLongitude</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

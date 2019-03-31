@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>ListUsers</name>
+   <name>CityByLatLong</name>
    <tag></tag>
-   <elementGuidId>87044f4d-f1ab-415f-9715-7043654a6ac7</elementGuidId>
+   <elementGuidId>69834466-a0f0-4494-b6b5-f8ca78322fc6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
-   <serviceType>RESTful</serviceType>
-   <soapBody></soapBody>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;Envelope xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;>
+    &lt;Body>
+        &lt;LatLonListCityNames xmlns=&quot;https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl&quot;>
+            &lt;displayLevel>${lat}&lt;/displayLevel>
+        &lt;/LatLonListCityNames>
+    &lt;/Body>
+&lt;/Envelope></soapBody>
    <soapHeader></soapHeader>
-   <soapRequestMethod></soapRequestMethod>
-   <soapServiceFunction></soapServiceFunction>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceFunction>LatLonListCityNames</soapServiceFunction>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -32,14 +37,15 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'data[2].first_name', 'Tracey')
-WS.verifyElementPropertyValue(response, 'data[2].last_name', 'Ramos')
 
+//WS.verifyElementText(response, 'LatLonListCityNamesResponse.listLatLonOut', 'Palm Springs,CA')
+
+
+WS.containsString(response,'Palm Springs,CA', false)
 </verificationScript>
-   <wsdlAddress></wsdlAddress>
+   <wsdlAddress>https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl</wsdlAddress>
 </WebServiceRequestEntity>
