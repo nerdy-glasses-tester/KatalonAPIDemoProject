@@ -2,9 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.junit.After
-
+import org.junit.After as After
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -19,22 +17,28 @@ import internal.GlobalVariable as GlobalVariable
 response1 = WS.sendRequest(findTestObject('LatLong_SOAPWSDL/GetLatLong_ByZipcode'))
 
 String xml1 = response1.getResponseText()
+
 def dataValue = new XmlSlurper().parseText(xml1)
-println (dataValue)
 
-String parseString = dataValue.toString() 
+println(dataValue)
 
-String [] array1 = parseString.split("<latLonList>")
-String [] array2 = array1[1].split("</latLonList>/")
+String parseString = dataValue.toString()
+
+String[] array1 = parseString.split('<latLonList>')
+
+String[] array2 = array1[1].split('</latLonList>/')
+
 String latitudelongitude = array2[0]
-println (latitudelongitude)
-String [] latitudearray = latitudelongitude.split(",")
+
+println(latitudelongitude)
+
+String[] latitudearray = latitudelongitude.split(',')
 
 String latitude = latitudearray[0].substring(0, 2)
-println (latitude)
+
+println(latitude)
+
 GlobalVariable.lat = latitude
 
-WS.sendRequest(findTestObject('LatLong_SOAPWSDL/GetCity_ByLatLong'))
-
-
+WS.sendRequestAndVerify(findTestObject('LatLong_SOAPWSDL/GetCity_ByLatLong'))
 

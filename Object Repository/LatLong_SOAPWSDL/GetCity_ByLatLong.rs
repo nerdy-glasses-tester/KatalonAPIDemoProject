@@ -33,19 +33,12 @@ import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
-
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
 WS.verifyResponseStatusCode(response, 200)
-
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-
+//wsdl has issues so can't use below
 //WS.verifyElementText(response, 'LatLonListCityNamesResponse.listLatLonOut', 'Palm Springs,CA')
-
-
-WS.containsString(response,'Palm Springs,CA', false)
-</verificationScript>
+//assertThat(response.getResponseText()).contains(&quot;Palm Springs,CA&quot;)</verificationScript>
    <wsdlAddress>https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl</wsdlAddress>
 </WebServiceRequestEntity>
