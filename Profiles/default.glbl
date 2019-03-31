@@ -9,4 +9,9 @@
       <initValue>34</initValue>
       <name>lat</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Alex'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
