@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-APITestingLearning,,,2019-03-30 15:26:42,2019-03-30 15:26:44,2.232s,PASSED
-,,,,,,
-Test Cases/HTTPMethods,,,2019-03-30 15:26:42,2019-03-30 15:26:44,2.037s,PASSED
-"sendRequest(findTestObject(""UserRestService/CreateUser""))",,,2019-03-30 15:26:42,2019-03-30 15:26:44,1.469s,PASSED
-"sendRequest(findTestObject(""UserRestService/UpdateUser""))",,,2019-03-30 15:26:44,2019-03-30 15:26:44,0.114s,PASSED
-"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,2019-03-30 15:26:44,2019-03-30 15:26:44,0.114s,PASSED
-"sendRequest(findTestObject(""UserRestService/DeleteUser""))",,,2019-03-30 15:26:44,2019-03-30 15:26:44,0.100s,PASSED

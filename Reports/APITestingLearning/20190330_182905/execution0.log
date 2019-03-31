@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858508</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747274</millis>
   <sequence>0</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -16,8 +16,8 @@
   <property name="id">Test Suites/APITestingLearning</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858520</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747286</millis>
   <sequence>1</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -28,8 +28,8 @@
   <property name="hostName">angee - 192.168.0.6</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858521</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747286</millis>
   <sequence>2</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -40,8 +40,8 @@
   <property name="os">Mac OS X 64bit</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858522</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747287</millis>
   <sequence>3</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -52,8 +52,8 @@
   <property name="hostAddress">192.168.0.6</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858522</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747288</millis>
   <sequence>4</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -64,8 +64,8 @@
   <property name="katalonVersion">6.1.0.1</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858683</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747444</millis>
   <sequence>5</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -80,8 +80,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2019-03-30T16:50:58</date>
-  <millis>1553989858890</millis>
+  <date>2019-03-30T18:29:07</date>
+  <millis>1553995747670</millis>
   <sequence>7</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -93,20 +93,20 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860492</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749218</millis>
   <sequence>11</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/0.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/0.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">19880524-01ee-457d-ab8d-2e9339a966f2</property>
+  <property name="harId">a5ad3d2c-70f1-4f13-a882-fe85acfd6907</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860566</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749298</millis>
   <sequence>12</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -116,8 +116,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860567</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749299</millis>
   <sequence>13</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -127,8 +127,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860567</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749299</millis>
   <sequence>14</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -140,20 +140,20 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860697</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749400</millis>
   <sequence>17</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/1.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/1.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">fd727698-97bd-4a1c-b555-f0558c23830d</property>
+  <property name="harId">dcd6ba28-2ed4-4c2c-bb3c-a2ae660234c2</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860699</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749402</millis>
   <sequence>18</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -163,8 +163,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860699</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749403</millis>
   <sequence>19</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -174,8 +174,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860700</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749403</millis>
   <sequence>20</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -187,20 +187,20 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860804</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749500</millis>
   <sequence>23</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/2.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/2.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">8dd19447-62e5-45e0-b14f-944faf8e7082</property>
+  <property name="harId">0cfc14c0-4234-4a05-aec9-1febcb61f385</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860806</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749502</millis>
   <sequence>24</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -210,8 +210,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860806</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749503</millis>
   <sequence>25</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -221,8 +221,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860807</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749503</millis>
   <sequence>26</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -234,20 +234,20 @@
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860914</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749613</millis>
   <sequence>29</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/3.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/3.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">74a20e5e-803c-43a4-bb3d-f4e2dd527a4d</property>
+  <property name="harId">eaf8966a-eac9-4a5a-ba6b-37fb9389b3a3</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860916</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749615</millis>
   <sequence>30</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -257,8 +257,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860916</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749615</millis>
   <sequence>31</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -268,8 +268,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860917</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749616</millis>
   <sequence>32</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -279,8 +279,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860917</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749616</millis>
   <sequence>33</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -290,8 +290,8 @@
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:00</date>
-  <millis>1553989860919</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749618</millis>
   <sequence>34</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -306,8 +306,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861002</millis>
+  <date>2019-03-30T18:29:09</date>
+  <millis>1553995749700</millis>
   <sequence>36</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -319,20 +319,20 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861579</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750190</millis>
   <sequence>40</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/4.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/4.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">947e25de-02e6-4a24-92ce-c3720f1afc66</property>
+  <property name="harId">11d59259-b951-43cb-b057-d0100b9c1cfc</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861581</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750191</millis>
   <sequence>41</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -342,8 +342,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861581</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750191</millis>
   <sequence>42</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -353,8 +353,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861581</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750191</millis>
   <sequence>43</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -366,20 +366,20 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861658</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750278</millis>
   <sequence>46</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_165056/requests/main/5.har</message>
+  <message>HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182905/requests/main/5.har</message>
   <nestedLevel>1</nestedLevel>
-  <property name="harId">0c1cff7a-9204-4ad3-ab87-e2dcd71e07cd</property>
+  <property name="harId">2fc8d3f8-e8a8-4142-b622-d58c7ddc4b75</property>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861660</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750280</millis>
   <sequence>47</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -389,8 +389,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861660</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750280</millis>
   <sequence>48</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -400,8 +400,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861660</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750280</millis>
   <sequence>49</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -411,8 +411,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861660</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750281</millis>
   <sequence>50</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -422,8 +422,8 @@
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
-  <date>2019-03-30T16:51:01</date>
-  <millis>1553989861685</millis>
+  <date>2019-03-30T18:29:10</date>
+  <millis>1553995750397</millis>
   <sequence>51</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>

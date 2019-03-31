@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APITestingLearning" time="3" tests="2" failures="0" errors="0">
+   <testsuite name="APITestingLearning" tests="2" failures="0" errors="0" time="3" timestamp="2019-03-30 18:28:55" hostname="angee - 192.168.0.6" id="Test Suites/APITestingLearning">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853"/>
+         <property name="logFiles" value="/Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="angee - 192.168.0.6"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/HTTPMethods" classname="Test Cases/HTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-03-30 18:28:55 - [TEST_CASE][PASSED] - Test Cases/HTTPMethods: Test Cases/HTTPMethods
+
+2019-03-30 18:28:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/CreateUser")): Send request successfully
+
+2019-03-30 18:28:56 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/0.har
+
+2019-03-30 18:28:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 18:28:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/UpdateUser")): Send request successfully
+
+2019-03-30 18:28:57 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/1.har
+
+2019-03-30 18:28:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 18:28:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/ListUsers")): Send request successfully
+
+2019-03-30 18:28:57 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/2.har
+
+2019-03-30 18:28:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 18:28:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/DeleteUser")): Send request successfully
+
+2019-03-30 18:28:57 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/3.har
+
+2019-03-30 18:28:57 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JSONPlaceholderTypicodeTest" classname="Test Cases/JSONPlaceholderTypicodeTest" status="PASSED">
+         <system-out><![CDATA[2019-03-30 18:28:57 - [TEST_CASE][PASSED] - Test Cases/JSONPlaceholderTypicodeTest: Test Cases/JSONPlaceholderTypicodeTest
+
+2019-03-30 18:28:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("JSONPlaceholderTypicode/PostRequest")): Send request successfully
+
+2019-03-30 18:28:57 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/4.har
+
+2019-03-30 18:28:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-30 18:28:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("JSONPlaceholderTypicode/GetRequest")): Send request successfully
+
+2019-03-30 18:28:58 - [MESSAGE][INFO] - HAR: /Users/angee/Katalon Studio/APITestingLearning/Reports/APITestingLearning/20190330_182853/requests/main/5.har
+
+2019-03-30 18:28:58 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-30 18:28:55 - [TEST_SUITE][PASSED] - APITestingLearning: Test Cases/JSONPlaceholderTypicodeTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
