@@ -26,6 +26,6 @@
       <guid>1d11ec2e-5f88-4982-9cec-78bc3d1e3f5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SoapWSDL_LatitudeLongitudeTest</testCaseId>
+      <testCaseId>Test Cases/SoapWSDLLatitudeLongitudeTest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
