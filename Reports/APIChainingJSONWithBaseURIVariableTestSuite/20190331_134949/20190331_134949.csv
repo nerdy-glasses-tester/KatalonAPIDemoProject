@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+APIChainingJSONWithBaseURIVariableTestSuite,,,2019-03-31 13:49:59,2019-03-31 13:50:02,2.711s,PASSED
+,,,,,,
+Test Cases/APIChainingJSONWithBaseURIVariable,,,2019-03-31 13:49:59,2019-03-31 13:50:02,2.531s,PASSED
+"response1 = sendRequest(findTestObject(""APIChainRestServiceWithBaseURIVariable/ListUsers"", [""baseuri"":baseuri]))",,,2019-03-31 13:49:59,2019-03-31 13:50:01,1.612s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.004s,PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.011s,PASSED
+value = first_name,,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.004s,PASSED
+"println(""Value extracted is "" + value)",,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.003s,PASSED
+username = value,,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.001s,PASSED
+"println(""Global variable username is "" + username)",,,2019-03-31 13:50:01,2019-03-31 13:50:01,0.001s,PASSED
+"sendRequestAndVerify(findTestObject(""APIChainRestServiceWithBaseURIVariable/UpdateUser"", [""username"":username, ""baseuri"":baseuri]))",,,2019-03-31 13:50:01,2019-03-31 13:50:02,0.676s,PASSED

@@ -6,12 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>44</initValue>
+      <initValue>34</initValue>
       <name>lat</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Priscilla'</initValue>
       <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reqres.in'</initValue>
+      <name>baseuri</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
