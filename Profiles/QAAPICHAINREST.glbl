@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>QAAPICHAINREST</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>34</initValue>
@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Alex'</initValue>
+      <initValue>'Priscilla'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AL'</initValue>
-      <name>countryISOCode</name>
+      <initValue>'reqres.in'</initValue>
+      <name>baseuri</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

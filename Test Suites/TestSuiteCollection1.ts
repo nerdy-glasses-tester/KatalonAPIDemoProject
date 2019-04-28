@@ -18,7 +18,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Service</groupName>
-            <profileName>QA</profileName>
+            <profileName>QAAPICHAINREST</profileName>
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
